@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom';
 function Header() {
   var headerStyle ={
     backgroundColor:'#adafb3',
-    paddingLeft: '100px',
-    paddingRight: '100px'
+    paddingLeft: '30px',
+    paddingRight: '200px',
+    color: 'white',
+    fontSize: '14px',
+    fontWeight: 'bold'
+    
     
   };
   var navBarStyle = {
@@ -18,7 +22,8 @@ function Header() {
   var header ={
     fontFamily: "TESLA",
     color: 'white',
-    paddingRight: '30px'
+    paddingRight: '150px',
+    textAlign: 'center'
   }
 
 
@@ -31,12 +36,12 @@ function Header() {
 
     <h3 style={header} className= "navbar-brand">Tesla</h3>
       <navbar/>
-        <navLink to="/">Model S</navLink>
-        <navLink to="/">Model 3</navLink>
-        <navLink to="/">Model X</navLink>
-        <navLink to="/">Model Y</navLink>
-        <navLink to="/">Roadster</navLink>
-        <navLink to="/">Energy</navLink>
+        <navLink to="/">MODEL S</navLink>
+        <navLink to="/">MODEL 3</navLink>
+        <navLink to="/">MODEL X</navLink>
+        <navLink to="/">MODEL Y</navLink>
+        <navLink to="/">ROADSTER</navLink>
+        <navLink to="/">ENERGY</navLink>
     </div>
 
   );
