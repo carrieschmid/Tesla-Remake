@@ -11,13 +11,14 @@ import { Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div> 
+      <h1>Tesla</h1>
       <Header/>
       <Intro/>
       <SeeAllJobs/>
       <MissionStatement/>
       <WorkTesla/>
       <Internship/>
-      <Disclaimer/>
+     <Disclaimer/>
     </div>
   );
 }

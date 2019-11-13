@@ -16,8 +16,8 @@
     ],
     "rules": {
         "indent": [
-            "error",
-            2
+            "warn",
+            1
         ],
         "linebreak-style": [
             "error",
@@ -37,14 +37,14 @@
         "react/jsx-no-undef": 1,
         "react/no-multi-comp": 2,
         "react/jsx-indent-props": [
-            "error",
-            2
+            "warn",
+            1
         ],
         "react/jsx-pascal-case": 2,
         "react/prop-types": 2,
         "react/jsx-indent": [
-            "error",
-            2
+            "warn",
+            1
         ],
         "react/jsx-key": 2,
         "no-unused-vars": 1

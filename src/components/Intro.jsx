@@ -1,13 +1,12 @@
 import React from 'react';
-import { IntroNav } from './IntroNav';
-import TeslaPhoto from '../assets/images/telsaPhoto.jpg';
+import IntroNav from './IntroNav';
+
 
 
 function Intro (){
   return(
     <div>
       <IntroNav/>
-      <img src ={TelsaPhoto}/>
     </div>
   );
 }

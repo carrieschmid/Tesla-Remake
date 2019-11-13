@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function IntroNav(){
   return (
     <div>
       <h3>Careers</h3>
-     
       <Link to="/">About</Link>
       <Link to="/">Careers</Link>
       <Link to="/">Contact</Link>
