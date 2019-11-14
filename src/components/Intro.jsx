@@ -7,12 +7,17 @@ import { Link } from 'react-router-dom';
 
 function Intro (){
  var introStyle =  {
-  contentAlign: 'center',
+  // contentAlign: 'center',
+  backgroundImage:`url(${MissionTesla})`
  }
   return(
     
     <div style = {introStyle}>
-      <img src= {MissionTesla}/>
+
+      {/* <img src= {MissionTesla}/> */}
+      <body style={introStyle}>
+        
+     
       <h3>Careers</h3>
       <Link to="/">About</Link>
       <Link to="/">Careers</Link>
@@ -21,6 +26,7 @@ function Intro (){
       <Link to="/">Investors</Link>
       <Link to="/">Suppliers</Link>
       <hr/>
+      </body>
     </div>
   );
 }
